@@ -24,7 +24,7 @@ double calcCharge();
 
 int main()
 {
-    bool makingEntries = 1;
+    int makingEntries = 1;
     double cost;
     
     cout << "Welcome to the shipping charge calculator.\n" << endl;
@@ -42,7 +42,7 @@ int main()
         cout << endl << "The cost to ship this package is: $" << cost << endl;
         cout << "Press 1 to calculate the cost of another package. ";
         cin >> makingEntries;
-     }
+    }
     return 0;
     
 }
